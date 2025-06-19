@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "api": "npx json-server@0.17.4 api.json --watch --port 3000"
+    "api": "npx json-server@0.17.4 api.json --watch --port 3000" ,
+    "http": "http-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^14.1.1",
     "json-server": "^0.17.4"
   },
-  "devDependencies": {},
   "description": ""
 }
